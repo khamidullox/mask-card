@@ -1,0 +1,203 @@
+/* karla-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/karla-v31-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* karla-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/karla-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* karla-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/karla-v31-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: #E6EFF5;
+}
+.mask{
+    width: 635px;
+height: 475px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 15px 30px 0px rgba(0, 81, 171, 0.15);
+margin-left: 380px;
+margin-top: 130px;
+
+}
+.mask-title{
+    color: #2AB3B1;
+font-family: 'Karla' , sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.3px;
+width: 324px;
+margin-bottom: 20px;
+margin-left: 40px;
+padding-top: 20px;
+}
+.mask-maket{
+    width: 635px;
+height: 435px;
+flex-shrink: 0;
+/* margin-bottom: 24px;
+margin-left: 40px; */
+}
+.mask-data{
+    display: flex;
+width: 555px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 11px;
+
+}
+.mask-data-title{
+    color: #C0DF33;
+font-family: 'Karla', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.225px;
+margin-left: 40px;
+}
+.mask-data-title2{
+    color: #9AA7BE;
+font-family: 'Karla' , sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: -0.2px;
+width: 555px;
+margin-left: 40px;
+}
+.mask-section{
+    width: 635px;
+    height: 259px;
+    flex-shrink: 0;
+    background: #2AB3B1;
+}
+.mask-section-title{
+    color: #FFF;
+font-family: 'Karla', sans-serif  ;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.225px;
+margin-left: 40px;
+padding-top: 40px;
+}
+.mask-price{
+    display: inline-flex;
+justify-content: center;
+align-items: center;
+gap: 11px;
+margin-left: 40px;
+margin-top: 18px;
+}
+.mask-section-price{
+    color: #FFF;
+font-family: 'Karla' , sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.4px;
+}
+.mask-section-data{
+    color: #FFF;
+font-family: Karla;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: -0.2px;
+}
+.mask-section-text{
+    color: #FFF;
+font-family: Karla;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+letter-spacing: -0.2px;
+margin-left: 40px;
+margin-top: 9px;
+}
+.mask-section-link{
+    width: 237px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #C0DF33;
+box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.10);
+margin-left: 40px;
+margin-top: 26px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mask-link{
+    color: #FFF;
+font-family: Karla;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.2px;
+
+}
+h2{
+    color: #FFF;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.225px;
+margin-top: 40px;
+margin-left: 40px;
+margin-bottom: 18px;
+}
+.mask-section-item{
+    color: #FFF;
+font-family: Karla;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: -0.175px;
+width: 238px;
+margin-left: 40px;
+}
+.mask-section{
+    display: flex;
+    margin-top: 40px;
+}
+.mask-section2{
+    background-color: #88cecea2;
+    width: 100%;
+    margin-left: 40px;
+}
